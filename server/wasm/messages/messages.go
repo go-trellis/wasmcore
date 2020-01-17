@@ -1,3 +1,6 @@
+// GNU GPL v3 License
+// Copyright (c) 2018 github.com:go-trellis
+
 package messages
 
 import (
@@ -79,8 +82,8 @@ type DeployFileType string
 // 文件类型
 const (
 	DeployFileTypeIndex  DeployFileType = "index"
-	DeployFileTypeLoader                = "loader"
-	DeployFileTypeWasm                  = "wasm"
+	DeployFileTypeLoader DeployFileType = "loader"
+	DeployFileTypeWasm   DeployFileType = "wasm"
 )
 
 // Marshal 序列化
